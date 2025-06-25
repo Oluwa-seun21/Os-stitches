@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    /* background-position:center; */
+    /* background-size: 80%; */
+    /* background-position:; */
+}
+/* #container{
+    background-image: url(background4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: content-box;
+    height: 700px; */
+/* } */
+
+.navbar{
+    width: 100%;
+    height: 48px;
+    background-color: whitesmoke;
+    /* display: flexbox; */
+    /* display: inline-block; */
+}
+img{
+    width: 48px;
+}
+ ul{
+    /* text-align: center; */
+    margin-top: -35px;
+
+    
+ }
+ li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+
+ }
+ li a{
+    text-decoration: none;
+    color:rgb(2, 2, 58) ;
+    margin-left: 80px;
+    padding: 10px;
+   font-family: sans-serif;
+   font-weight: bold;
+ }
+a:hover{
+    color: dodgerblue;
+}
+
+.rightside {
+    /* background-color:dodgerblue; */
+    background-color: skyblue;
+    /* opacity: 0.7; */
+    position: absolute;
+    right: 80px;
+    margin-top: 60px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    border-radius: 6px;
+}
+.rightside h2{
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+.rightside .img2{
+    margin-top: 35px;
+    border-radius: 10px;
+}
+ form .signup{
+    height: 40px;
+}
+.formp a{
+    text-decoration: none;
+    color:rgb(15, 15, 145) ;
+}
+.signup input{
+    border: none;
+    border-style: none;
+    /* border-bottom-style: solid 3px green ; */
+    background-color:skyblue ;
+    border-width: 250px;
+    height: 22px;
+    /* width: 200px; */
+}
+::placeholder{
+    border: none;
+    color:rgb(2, 2, 58)  ;
+    border-bottom: 2px solid rgb(65, 65, 233);
+    text-align: center;
+}
+.formfooter{
+    padding: 25px;
+    font-family:cursive;
+    color:rgb(2, 2, 58) ;
+    font-size: 12px;
+    /* display: inline; */
+    text-align: center;
+    /* margin-bottom: 140px; */
+}
+
+.leftside {
+font-family:sans-serif;
+font-weight: bold;
+font-size: 60px;
+margin-left: 30px;
+}
+.leftside h2{
+    /* text-indent: 76px; */
+}
+ section p {
+    color:  rgb(4, 4, 75);
+    font-size:30px;
+    font-family: sans-serif;
+}
+section{
+    align-content:space-evenly ;
+    display: flex;
+}
+ 
+section .designs{
+    margin-top: -30px;
+    /* padding: 10px; */
+}
+span{
+    padding: 30px;
+    /* margin: 0 15px; */
+}
+span img{
+    height: 180px;
+    width: 240px;
+}
